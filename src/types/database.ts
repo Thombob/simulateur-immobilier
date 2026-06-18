@@ -178,6 +178,7 @@ export interface Connection {
   target_type: 'idea' | 'project' | 'knowledge' | 'person';
   target_id: string;
   relationship: string;
+  strength: number | null;
   ai_generated: boolean;
   created_at: string;
 }
